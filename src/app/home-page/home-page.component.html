@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2>VJ</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <img src="https://secure.meetupstatic.com/photos/member/1/2/3/6/member_277804662.jpeg" alt="Varsha Jaiswal"
+                class="rounded-circle float-center" />
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-2">
+                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'home' ? 'tabSelected': ''"
+                        (click)="changeTabSelected('home')">
+                        HOME
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'bio' ? 'tabSelected': ''"
+                        (click)="changeTabSelected('bio')">
+                        BIO
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'work' ? 'tabSelected': ''"
+                        (click)="changeTabSelected('work')">
+                        WORK
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="javascript:void(0)" class="tabName"
+                        [ngClass]="selectedTab === 'projects' ? 'tabSelected': ''"
+                        (click)="changeTabSelected('projects')">
+                        PROJECTS
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'talks' ? 'tabSelected': ''"
+                        (click)="changeTabSelected('talks')">
+                        TALKS
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="javascript:void(0)" class="tabName"
+                        [ngClass]="selectedTab === 'contact' ? 'tabSelected': ''"
+                        (click)="changeTabSelected('contact')">
+                        CONTACT
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <hr>
+</div>
+<app-home-data *ngIf="selectedTab === 'home'"></app-home-data>
+<app-bio *ngIf="selectedTab === 'bio'"></app-bio>
+<app-work *ngIf="selectedTab === 'work'"></app-work>
+<app-project *ngIf="selectedTab === 'projects'"></app-project>
+<app-talk *ngIf="selectedTab === 'talks'"></app-talk>
+<app-contact *ngIf="selectedTab === 'contact'"></app-contact>

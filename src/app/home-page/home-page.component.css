@@ -1,0 +1,8 @@
+.tabName {
+    color: #696969;
+}
+
+.tabSelected {
+    font-weight: bold;
+    color: #2F4F4F;
+}
