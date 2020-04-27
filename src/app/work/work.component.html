@@ -1,1 +1,46 @@
-<p>work works!</p>
+<div class="container work">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="title">Work Experience</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4" *ngFor="let work of workData">
+            <div class="card workCard mb-3">
+                <div class="card-header cardHeader">{{ work.position }}</div>
+                <div class="card-body">
+                    <h6 class="card-subtitle text-muted"><b>{{ work.organization }}</b></h6>
+                    <span class="text-muted duration">{{ work.duration }}</span>
+                    <p class="card-text description">{{ work.description }}</p>
+                    <h6 class="text-muted description">Technology Stack: {{ work.technicalStack }}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="title">Community Experience</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4" *ngFor="let community of communityData">
+            <div class="card communityCard mb-3">
+                <div class="card-header cardHeader">{{ community.organization }}</div>
+                <div class="card-body communityCardData">
+                    <h6 class="card-subtitle text-muted"><b>{{ community.position1 }}</b></h6>
+                    <span class="text-muted duration">{{ community.duration1 }}</span>
+                    <hr>
+                    <p class="card-text description">{{ community.description1 }}</p>
+                    <hr *ngIf="community.position2">
+                    <h6 class="card-subtitle text-muted" *ngIf="community.position2">
+                        <b>{{ community.position2 }}</b>
+                    </h6>
+                    <span class="text-muted text-right" *ngIf="community.position2">{{ community.duration2 }}</span>
+                    <hr *ngIf="community.position2">
+                    <p class="card-text description" *ngIf="community.position2">{{ community.description2 }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
