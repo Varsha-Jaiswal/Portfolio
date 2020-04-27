@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  isGallerySelected = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  selectGallery() {
+    this.isGallerySelected = true;
   }
 
 }
