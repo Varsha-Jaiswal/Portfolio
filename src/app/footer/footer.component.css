@@ -1,0 +1,28 @@
+.footer {
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+.footerData {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imageLayout {
+    width: 160px;
+    height: 95px;
+}
+
+.imageDescription {
+    font-size: small;
+    text-align: center;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.copyright {
+    color: rgb(36, 35, 35);
+    font-weight: bold;
+}

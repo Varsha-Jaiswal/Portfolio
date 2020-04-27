@@ -1,1 +1,17 @@
-<p>footer works!</p>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row footerData">
+            <div class="col-2 mb-4" *ngFor="let imageData of imagesData">
+                <div class="view overlay z-depth-1-half">
+                    <img [src]="imageData.url" class="img-fluid imageLayout" [alt]="imageData.name">
+                    <a href="javascript:void(0)">
+                        <div class="mask rgba-white-light imageDescription"> {{ imageData.name }}</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center footer">© 2020 Copyright:
+        <a href="#" class="copyright"> Varsha Jaiswal</a>
+    </div>
+</footer>
