@@ -1,0 +1,10 @@
+.bio {
+    text-align: justify;
+    padding: 25px;
+    margin: 15px;
+    font-family: cursive;
+}
+
+strong {
+    color: #2F4F4F;
+}
