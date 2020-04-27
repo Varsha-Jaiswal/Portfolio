@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  selectedTab = 'home';
+  selectedTab = 'bio';
   tabData = [];
   constructor() { }
 
