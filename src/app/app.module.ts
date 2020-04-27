@@ -9,6 +9,8 @@ import { WorkComponent } from './work/work.component';
 import { BioComponent } from './bio/bio.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomeDataComponent } from './home-data/home-data.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HomeDataComponent } from './home-data/home-data.component';
     WorkComponent,
     BioComponent,
     HomePageComponent,
-    HomeDataComponent
+    HomeDataComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
