@@ -1,0 +1,14 @@
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    vertical-align: sub;
+    font-family: monospace;
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+}
