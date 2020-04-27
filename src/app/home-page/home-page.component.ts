@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  selectedTab = 'bio';
+  selectedTab = 'home';
   tabData = [];
+  imageUrl = '../../assets/home-page-profile/varsha.jpg';
+
   constructor() { }
 
   ngOnInit() {
@@ -23,5 +25,25 @@ export class HomePageComponent implements OnInit {
 
   changeTabSelected(tab) {
     this.selectedTab = tab.toLowerCase();
+    switch (this.selectedTab) {
+      case 'bio':
+        this.imageUrl = '../../assets/home-page-profile/bio-page.jpg';
+        break;
+      case 'work':
+        this.imageUrl = '../../assets/home-page-profile/work.jpg';
+        break;
+      case 'projects':
+        this.imageUrl = '../../assets/home-page-profile/projects.jpg';
+        break;
+      case 'talks':
+        this.imageUrl = '../../assets/home-page-profile/talk.jpg';
+        break;
+      case 'contact':
+        this.imageUrl = '../../assets/home-page-profile/contact.jpg';
+        break;
+      default:
+        this.imageUrl = '../../assets/home-page-profile/varsha.jpg';
+        break;
+    }
   }
 }
