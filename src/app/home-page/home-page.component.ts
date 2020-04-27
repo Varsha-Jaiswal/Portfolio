@@ -8,12 +8,20 @@ import { Component, OnInit } from '@angular/core';
 export class HomePageComponent implements OnInit {
 
   selectedTab = 'home';
+  tabData = [];
   constructor() { }
 
   ngOnInit() {
+    this.getTabData();
+  }
+
+  getTabData() {
+    this.tabData = [
+      'HOME', 'BIO', 'WORK', 'PROJECTS', 'TALKS', 'CONTACT'
+    ];
   }
 
   changeTabSelected(tab) {
-    this.selectedTab = tab;
+    this.selectedTab = tab.toLowerCase();
   }
 }

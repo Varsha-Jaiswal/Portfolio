@@ -2,8 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 text-center">
-            <img src="../../assets/varsha.jpg" alt="Varsha Jaiswal"
-                class="rounded-circle float-center profileImage" />
+            <img src="../../assets/varsha.jpg" alt="Varsha Jaiswal" class="rounded-circle float-center profileImage" />
         </div>
     </div>
     <hr>
@@ -11,47 +10,15 @@
         <div class="col-2"></div>
         <div class="col-8">
             <div class="row">
-                <div class="col-2">
-                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'home' ? 'tabSelected': ''"
-                        (click)="changeTabSelected('home')">
-                        HOME
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'bio' ? 'tabSelected': ''"
-                        (click)="changeTabSelected('bio')">
-                        BIO
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'work' ? 'tabSelected': ''"
-                        (click)="changeTabSelected('work')">
-                        WORK
-                    </a>
-                </div>
-                <div class="col-2">
+                <div class="col-2" *ngFor="let tab of tabData">
                     <a href="javascript:void(0)" class="tabName"
-                        [ngClass]="selectedTab === 'projects' ? 'tabSelected': ''"
-                        (click)="changeTabSelected('projects')">
-                        PROJECTS
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="javascript:void(0)" class="tabName" [ngClass]="selectedTab === 'talks' ? 'tabSelected': ''"
-                        (click)="changeTabSelected('talks')">
-                        TALKS
-                    </a>
-                </div>
-                <div class="col-2">
-                    <a href="javascript:void(0)" class="tabName"
-                        [ngClass]="selectedTab === 'contact' ? 'tabSelected': ''"
-                        (click)="changeTabSelected('contact')">
-                        CONTACT
+                        [ngClass]="selectedTab === tab.toLowerCase() ? 'tabSelected': ''"
+                        (click)="changeTabSelected(tab)">
+                        {{tab}}
                     </a>
                 </div>
             </div>
         </div>
-        <div class="col-2"></div>
     </div>
     <hr>
 </div>
