@@ -11,6 +11,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HomeDataComponent } from './home-data/home-data.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HeaderComponent } from './header/header.component';
     HomePageComponent,
     HomeDataComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule

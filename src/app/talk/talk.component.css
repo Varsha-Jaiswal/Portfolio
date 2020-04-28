@@ -2,6 +2,7 @@
     height: 210px;
     width: 349px;
 }
+
 .cardSize {
     min-height: 250px;
     max-height: 250px;
@@ -15,6 +16,7 @@
 .venue {
     font-size: small;
 }
+
 .seeMoreButton {
     width: 30px;
     height: 30px;

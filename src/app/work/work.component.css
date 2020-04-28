@@ -8,8 +8,6 @@
 }
 
 .workCard {
-    min-width: 350px;
-    max-width: 350px;
     min-height: 230px;
     max-height: 230px;
 }
@@ -35,7 +33,7 @@
     min-height: 225px;
 }
 
-.communityCardData {
+.cardData {
     overflow-y: auto;
 }
 
