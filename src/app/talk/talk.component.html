@@ -1,1 +1,30 @@
-<p>talk works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-4 mb-3" *ngFor="let talk of talksData">
+            <div class="card">
+                <img class="card-img-top imageSize" [src]="talk.imageUrl" [alt]="talk.title" />
+                <div class="card-body cardSize">
+                    <div class="card-text">
+                        <h5 class="text-muted text-center">{{ talk.event }}</h5>
+                        <h6 class="text-muted text-center">{{ talk.organization }}</h6>
+                        <hr>
+                        <p class="description">
+                            {{ talk.description }}
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-10 venue">
+                                <i>@{{ talk.venue }} on {{ talk.date }}</i>
+                            </div>
+                            <div class="col-2">
+                                <a [href]="talk.link" target="_blank">
+                                    <img src="../../assets/talks/see-more.png" class="seeMoreButton" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
