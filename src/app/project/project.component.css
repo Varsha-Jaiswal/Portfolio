@@ -1,0 +1,6 @@
+.project {
+    padding: 20px;
+    min-height: 190px;
+    max-height: 190px;
+    overflow-y: auto;
+}
