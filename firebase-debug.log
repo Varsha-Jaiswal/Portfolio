@@ -1,0 +1,70 @@
+[debug] [2020-04-28T08:32:52.609Z] ----------------------------------------------------------------------
+[debug] [2020-04-28T08:32:52.611Z] Command:       /home/varsha/.nvm/versions/node/v10.11.0/bin/node /home/varsha/.nvm/versions/node/v10.11.0/bin/firebase deploy
+[debug] [2020-04-28T08:32:52.611Z] CLI Version:   8.1.1
+[debug] [2020-04-28T08:32:52.611Z] Platform:      linux
+[debug] [2020-04-28T08:32:52.611Z] Node Version:  v10.11.0
+[debug] [2020-04-28T08:32:52.611Z] Time:          Tue Apr 28 2020 14:02:52 GMT+0530 (India Standard Time)
+[debug] [2020-04-28T08:32:52.611Z] ----------------------------------------------------------------------
+[debug] [2020-04-28T08:32:52.612Z] 
+[debug] [2020-04-28T08:32:52.619Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-28T08:32:52.620Z] > authorizing via signed-in user
+[debug] [2020-04-28T08:32:52.620Z] [iam] checking project varsha-jaiswal for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-04-28T08:32:52.622Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-28T08:32:52.623Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-28T08:32:52.870Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 28 Apr 2020 08:32:52 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-28T08:32:52.910Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/varsha-jaiswal:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-04-28T08:32:54.771Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 28 Apr 2020 08:32:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1671","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-28T08:32:54.775Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/varsha-jaiswal  
+ 
+[debug] [2020-04-28T08:32:55.365Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 28 Apr 2020 08:32:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'varsha-jaiswal'...
+[info] 
+[info] i  deploying hosting
+[debug] [2020-04-28T08:32:55.379Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/varsha-jaiswal/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-04-28T08:32:57.896Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 28 Apr 2020 08:32:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[varsha-jaiswal]: beginning deploy...
+[info] i  hosting[varsha-jaiswal]: found 60 files in dist
+[debug] [2020-04-28T08:32:58.060Z] [hosting] hash cache [ZGlzdA] stored for 60 files
+[debug] [2020-04-28T08:32:58.060Z] [hosting][hash queue][FINAL] {"max":104,"min":26,"avg":44.73333333333334,"active":0,"complete":60,"success":60,"errored":0,"retried":0,"total":60,"elapsed":115}
+[debug] [2020-04-28T08:32:58.060Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/varsha-jaiswal/versions/a36bfe6a26e21314:populateFiles  
+ <request body omitted>
+[debug] [2020-04-28T08:33:00.486Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 28 Apr 2020 08:33:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-28T08:33:00.500Z] [hosting][populate queue][FINAL] {"max":2431,"min":2431,"avg":2431,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2441}
+[debug] [2020-04-28T08:33:00.500Z] [hosting] uploads queued: 17
+[debug] [2020-04-28T08:33:04.579Z] [hosting][upload queue][FINAL] {"max":4092,"min":2047,"avg":2472.176470588235,"active":0,"complete":17,"success":17,"errored":0,"retried":0,"total":17,"elapsed":4092}
+[info] ✔  hosting[varsha-jaiswal]: file upload complete
+[debug] [2020-04-28T08:33:04.581Z] [hosting] deploy completed after 6680ms
+[debug] [2020-04-28T08:33:04.757Z] [
+  {
+    "config": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "varsha-jaiswal"
+    },
+    "site": "varsha-jaiswal",
+    "version": "sites/varsha-jaiswal/versions/a36bfe6a26e21314"
+  }
+]
+[info] i  hosting[varsha-jaiswal]: finalizing version...
+[debug] [2020-04-28T08:33:04.759Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/varsha-jaiswal/versions/a36bfe6a26e21314?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-04-28T08:33:06.732Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 28 Apr 2020 08:33:06 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-28T08:33:06.735Z] [hosting] finalized version for varsha-jaiswal: {"name":"sites/varsha-jaiswal/versions/a36bfe6a26e21314","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-04-28T08:32:57.362943Z","createUser":{"email":"shaluvarshajaiswal@gmail.com"},"finalizeTime":"2020-04-28T08:33:06.572276Z","finalizeUser":{"email":"shaluvarshajaiswal@gmail.com"}}
+[info] ✔  hosting[varsha-jaiswal]: version finalized
+[info] i  hosting[varsha-jaiswal]: releasing new version...
+[debug] [2020-04-28T08:33:06.739Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/varsha-jaiswal/releases?version_name=sites/varsha-jaiswal/versions/a36bfe6a26e21314  
+ {"message":null}
