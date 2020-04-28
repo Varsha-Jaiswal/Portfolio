@@ -24,8 +24,8 @@ export class TalkComponent implements OnInit {
         venue: 'Webinar',
         imageUrl: '../../assets/talks/2020/wdis-webinar-tbh.jpeg',
         products: [],
-        description: `Open discussion on Coding, Career and Women in Tech that how to start and keep the 
-       zeal high in choosing a particular field and moving forward with the specializations.`,
+        description: `Open discussion on Coding, Career and Women in Tech that how to start and keep the
+         zeal high in choosing a particular field and moving forward with the specializations.`,
         organization: '#techbyHer, Facebook Developer Circles, Bhopal',
         date: '18-04-2020'
       },
@@ -61,8 +61,8 @@ export class TalkComponent implements OnInit {
         products: [
           'Progressive Web Apps'
         ],
-        description: `Mainly focused on the basic introduction of Progressive Web App 
-        along with the hot questions on the topic like, why PWA is needed and is in demand.`,
+        description: `Mainly focused on the basic introduction of Progressive Web App
+         along with the hot questions on the topic like, why PWA is needed and is in demand.`,
         organization: 'Google Developers Group, Nagpur',
         date: '05-10-2019'
       },
@@ -73,8 +73,8 @@ export class TalkComponent implements OnInit {
         venue: 'The LaLit, Chandigarh',
         products: [],
         imageUrl: '../../assets/talks/2019/devfest-punjab-2019.jpeg',
-        description: `Hosted the workshop on the initiative #IamRemarkable to motivate people by talking 
-        about their achievements and accomplishments.`,
+        description: `Hosted the workshop on the initiative #IamRemarkable to motivate people by talking
+         about their achievements and accomplishments.`,
         organization: 'Google Developers Group, Jalandhar & Chandigarh',
         date: '28-09-2019'
       },
@@ -96,8 +96,8 @@ export class TalkComponent implements OnInit {
         venue: 'Lovely Professional University, Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/2019/io19-iar.jpg',
-        description: `Talked why Self-branding is important and not about bragging. 
-        Also, held a group discussion session on #IamRemarkable.`,
+        description: `Talked why Self-branding is important and not about bragging.
+         Also, held a group discussion session on #IamRemarkable.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '23-06-2019'
       },
@@ -108,8 +108,8 @@ export class TalkComponent implements OnInit {
         venue: 'Lovely Professional University, Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/2019/io19-aog.jpg',
-        description: `Delievered talk on Basics of Actions on Google and DialogFlow with an 
-        introduction about how to make actions on Google Assistant.`,
+        description: `Delievered talk on Basics of Actions on Google and DialogFlow with an
+         introduction about how to make actions on Google Assistant.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '23-06-2019'
       },
@@ -120,8 +120,8 @@ export class TalkComponent implements OnInit {
         venue: 'CT Group of Institutions, Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/default.jpg',
-        description: `Talked why Self-branding is important and not about bragging. 
-        Also, held a group discussion session on #IamRemarkable.`,
+        description: `Talked why Self-branding is important and not about bragging.
+         Also, held a group discussion session on #IamRemarkable.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '18-05-2019'
       },
@@ -132,8 +132,8 @@ export class TalkComponent implements OnInit {
         venue: 'Apeejay Institute of Managment Technical Campus, Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/2019/iwd19.jpg',
-        description: `Talked why Self-branding is important and not about bragging. 
-        Also, held a group discussion session on Why I'm Remarkable.`,
+        description: `Talked why Self-branding is important and not about bragging.
+         Also, held a group discussion session on Why I'm Remarkable.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '31-03-2019'
       },
@@ -204,8 +204,8 @@ export class TalkComponent implements OnInit {
           'Google Assistant'
         ],
         imageUrl: '../../assets/talks/default.jpg',
-        description: `Delievered a hands-on session on How to create your own agent on 
-        Dialogflow and publish your own assistant on Google Assistant.`,
+        description: `Delievered a hands-on session on How to create your own agent on
+         Dialogflow and publish your own assistant on Google Assistant.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '15-04-2018'
       },
@@ -291,8 +291,8 @@ export class TalkComponent implements OnInit {
         venue: 'Lovely Professional University, Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/2017/iwd17.jpg',
-        description: `Introduction to the community programs initiated by Google like GDG, WTM, DSC, 
-        etc which was proceeded by the agenda of the event.`,
+        description: `Introduction to the community programs initiated by Google like GDG, WTM, DSC,
+         etc which was proceeded by the agenda of the event.`,
         organization: 'Women Techmakers, Jalandhar',
         date: '27-03-2017'
       },
@@ -303,8 +303,8 @@ export class TalkComponent implements OnInit {
         venue: 'NIT Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/default.jpg',
-        description: `Introduction to the community programs initiated by Google like GDG, WTM, DSC, etc 
-        which was proceeded by the agenda of the event.`,
+        description: `Introduction to the community programs initiated by Google like GDG, WTM, DSC, etc
+         which was proceeded by the agenda of the event.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '26-03-2017'
       },
@@ -328,8 +328,8 @@ export class TalkComponent implements OnInit {
         venue: 'Chandigarh University, Chandigarh',
         products: [],
         imageUrl: '../../assets/talks/appification-2016.jpg',
-        description: `Introduction to the community programs initiated by Google like GDG, WTM, DSC, 
-        etc which was proceeded by the agenda of the event.`,
+        description: `Introduction to the community programs initiated by Google like GDG, WTM, DSC,
+         etc which was proceeded by the agenda of the event.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '12-11-2016'
       }
