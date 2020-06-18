@@ -1,23 +1,31 @@
 .imageSize {
     height: 210px;
-    width: 349px;
+    width: 100%;
 }
 
 .cardSize {
-    min-height: 250px;
-    max-height: 250px;
+    min-height: 275px;
+    max-height: 275px;
     overflow-y: auto;
 }
 
 .description {
-    font-size: 14px;
+    font-size: 85%;
+    text-align: justify;
 }
 
 .venue {
     font-size: small;
+    bottom: 3%;
+    position: absolute;
+    width: 100%;
+    word-break: normal;
 }
 
-.seeMoreButton {
-    width: 30px;
-    height: 30px;
+.organization {
+    font-size: 90%;
+}
+
+.buttonInfo {
+    float: right;
 }

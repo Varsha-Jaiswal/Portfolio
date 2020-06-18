@@ -5,20 +5,23 @@
                 <img class="card-img-top imageSize" [src]="talk.imageUrl" [alt]="talk.title" />
                 <div class="card-body cardSize">
                     <div class="card-text">
-                        <h5 class="text-muted text-center">{{ talk.event }}</h5>
-                        <h6 class="text-muted text-center">{{ talk.organization }}</h6>
+                        <h5 class="text-muted text-center mb-0">{{ talk.event }}</h5>
+                        <p class="text-muted text-center organization mb-0">{{ talk.organization }}</p>
                         <hr>
                         <p class="description">
                             {{ talk.description }}
                         </p>
                         <hr>
-                        <div class="row">
-                            <div class="col-10 venue">
+                        <div class="row venue">
+                            <div class="col-10">
                                 <i>@{{ talk.venue }} on {{ talk.date }}</i>
                             </div>
-                            <div class="col-2">
-                                <a [href]="talk.link" target="_blank">
-                                    <img src="../../assets/talks/see-more.png" class="seeMoreButton" alt="">
+                            <div class="col-2 buttonInfo">
+                                <a [href]="talk.link" target="_blank" *ngIf="talk.link !== '#'">
+                                    <svg class="bi bi-chevron-double-right" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                      </svg>
                                 </a>
                             </div>
                         </div>

@@ -18,6 +18,39 @@ export class TalkComponent implements OnInit {
   getTalksData() {
     this.talksData = [
       {
+        title: 'Unboxing PWAs',
+        event: 'HackJaipur',
+        link: 'https://www.youtube.com/watch?v=EpELOmo4IfU',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/hackjaipur.jpeg',
+        products: ['PWA'],
+        description: 'vfgrrw',
+        organization: 'HackJaipur, Jaipur',
+        date: '18-06-2020'
+      },
+      {
+        title: 'Ice-Breaker Session',
+        event: 'IWD India 2020',
+        link: 'https://youtu.be/uDiYTfFhFeA',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/iwd-india.jpeg',
+        products: [],
+        description: 'usjcdj',
+        organization: 'Women Techmakers India',
+        date: '24-05-2020'
+      },
+      {
+        title: 'From attendee to Co-organizer',
+        event: 'From attendee to Co-organizer',
+        link: '#',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/fac-webinar.jpeg',
+        products: [],
+        description: '',
+        organization: 'Talk-E-sentials, Bhopal',
+        date: '10-05-2020'
+      },
+      {
         title: 'Discussion on Coding, Career and Women in Tech',
         event: 'Where do I start?',
         link: '#',
