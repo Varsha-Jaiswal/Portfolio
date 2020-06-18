@@ -1,17 +1,16 @@
 <app-header></app-header>
-<div class="container">
+<div class="container homeStyle">
     <div class="row">
         <div class="col-12 text-center">
             <img [src]="imageUrl" alt="Varsha Jaiswal" class="rounded-circle float-center profileImage" />
+            <hr class="mt-3">
         </div>
     </div>
-    <hr>
     <div class="row">
-        <div class="col-lg-2 col-md-2"></div>
-        <div class="col-lg-8 col-md-8 col-sm-12">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-12 offset-md-2 offset-lg-2">
             <div class="row">
-                <div class="col-lg-2 text-center" *ngFor="let tab of tabData">
-                    <a href="javascript:void(0)" class="tabName"
+                <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <a href="javascript:void(0)" class="tabName mx-1"  *ngFor="let tab of tabData"
                         [ngClass]="selectedTab === tab.toLowerCase() ? 'tabSelected': ''"
                         (click)="changeTabSelected(tab)">
                         {{tab}}
