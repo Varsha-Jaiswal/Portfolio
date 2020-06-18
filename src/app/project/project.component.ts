@@ -17,6 +17,19 @@ export class ProjectComponent implements OnInit {
   getProjectsData() {
     this.projectsData = [
       {
+        name: 'web.dev Web Application',
+        year: '2020',
+        description: `A web application for web.dev Live India on behalf of GDG WTM India.
+        It is dynamic web application and PWA created in Vue.js and also using HTML, CSS, JavaScript, etc.`
+      },
+      {
+        name: 'IWD India Web Application',
+        year: '2020',
+        description: `A web application for IWD India on behalf of Women Techmakers.
+        It is dynamic web application and PWA created in Vue.js and also using HTML, CSS, JavaScript, etc.`,
+        projectUrl: 'http://wtmindia-iwd20.web.app/'
+      },
+      {
         name: 'IWD Jalandhar App',
         year: '2020',
         description: `A web application for IWD Jalandhar on behalf of GDG WTM Jalandhar.
