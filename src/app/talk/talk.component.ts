@@ -24,7 +24,8 @@ export class TalkComponent implements OnInit {
         venue: 'Webinar',
         imageUrl: '../../assets/talks/2020/hackjaipur.jpeg',
         products: ['PWA'],
-        description: 'vfgrrw',
+        description: `This talk covers what PWAs are, why and how it came in the picture,
+        how we can have our own PWAs, and how it benefitted the companies who stepped out to have their PWA.`,
         organization: 'HackJaipur, Jaipur',
         date: '18-06-2020'
       },
@@ -35,7 +36,9 @@ export class TalkComponent implements OnInit {
         venue: 'Webinar',
         imageUrl: '../../assets/talks/2020/iwd-india.jpeg',
         products: [],
-        description: 'usjcdj',
+        description: `Conducted a ice-breakers session in the 4-day long event, talking about inspiring women
+        in tech around us. This session was to engage the audience and have a engaging online session in
+         between the tech/non-tech sessions.`,
         organization: 'Women Techmakers India',
         date: '24-05-2020'
       },
@@ -46,7 +49,9 @@ export class TalkComponent implements OnInit {
         venue: 'Webinar',
         imageUrl: '../../assets/talks/2020/fac-webinar.jpeg',
         products: [],
-        description: '',
+        description: `Talked about my journey that how community helped me in different aspects. Be it personal or professional.
+        This talk was centric around various opportunities where we can work to uplift ourselves. 
+        It was also about Coding, Career and Women in Tech.`,
         organization: 'Talk-E-sentials, Bhopal',
         date: '10-05-2020'
       },
@@ -81,7 +86,8 @@ export class TalkComponent implements OnInit {
         venue: 'NIT Jalandhar',
         imageUrl: '../../assets/talks/2020/firebase-study-jam-2020.jpg',
         products: [],
-        description: 'Talked about the various programs by the Google Developers, for the people in different stages.',
+        description: `Talked about the various programs by the Google Developers like GDG, WTM, DSC,etc.,
+        for the people in different stages. Kickstarted the event by addressing the speakers and the audience.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '22-02-2020'
       },
@@ -106,7 +112,7 @@ export class TalkComponent implements OnInit {
         venue: 'The LaLit, Chandigarh',
         products: [],
         imageUrl: '../../assets/talks/2019/devfest-punjab-2019.jpeg',
-        description: `Hosted the workshop on the initiative #IamRemarkable to motivate people by talking
+        description: `Hosted the workshop on the #IamRemarkable initiative by Google, to motivate people by talking
          about their achievements and accomplishments.`,
         organization: 'Google Developers Group, Jalandhar & Chandigarh',
         date: '28-09-2019'
@@ -118,7 +124,7 @@ export class TalkComponent implements OnInit {
         venue: 'Infosys Limited, Chandigarh',
         products: [],
         imageUrl: '../../assets/talks/2019/io19-chandigarh.jpg',
-        description: 'Delievered talk on the latest updates of Google Assistant and Actions on Google.',
+        description: 'Delivered talk on the latest updates of Google Assistant and Actions on Google.',
         organization: 'Google Developers Group, Chandigarh',
         date: '29-06-2019'
       },
@@ -141,7 +147,7 @@ export class TalkComponent implements OnInit {
         venue: 'Lovely Professional University, Jalandhar',
         products: [],
         imageUrl: '../../assets/talks/2019/io19-aog.jpg',
-        description: `Delievered talk on Basics of Actions on Google and DialogFlow with an
+        description: `Delivered talk on Basics of Actions on Google and DialogFlow with an
          introduction about how to make actions on Google Assistant.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '23-06-2019'
@@ -237,7 +243,7 @@ export class TalkComponent implements OnInit {
           'Google Assistant'
         ],
         imageUrl: '../../assets/talks/default.jpg',
-        description: `Delievered a hands-on session on How to create your own agent on
+        description: `Delivered a hands-on session on How to create your own agent on
          Dialogflow and publish your own assistant on Google Assistant.`,
         organization: 'Google Developers Group, Jalandhar',
         date: '15-04-2018'
