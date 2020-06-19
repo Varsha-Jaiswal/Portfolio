@@ -50,7 +50,7 @@ export class TalkComponent implements OnInit {
         imageUrl: '../../assets/talks/2020/fac-webinar.jpeg',
         products: [],
         description: `Talked about my journey that how community helped me in different aspects. Be it personal or professional.
-        This talk was centric around various opportunities where we can work to uplift ourselves. 
+        This talk was centric around various opportunities where we can work to uplift ourselves.
         It was also about Coding, Career and Women in Tech.`,
         organization: 'Talk-E-sentials, Bhopal',
         date: '10-05-2020'
