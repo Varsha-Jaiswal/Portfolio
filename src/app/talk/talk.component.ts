@@ -18,14 +18,68 @@ export class TalkComponent implements OnInit {
   getTalksData() {
     this.talksData = [
       {
+        title: 'Keep The Hopes High',
+        event: 'WTM Jalandhar Celebration 6.0',
+        link: 'https://youtu.be/bGtPI6Iqj08',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/keepTheHopesHigh.png',
+        products: [],
+        description: `Discussed the scenarios people are facing these days,
+        what inspires us to wake up next morning and thrive to achieve our goal.
+        What are the opportunities available and what are things where we can invest our time rather
+        than getting bored.`,
+        organization: 'WTM Jalandhar',
+        date: '23-08-2020'
+      },
+      {
+        title: 'Welcome Keynote',
+        event: 'WTM Jalandhar Celebration 6.0',
+        link: 'https://youtu.be/_pIZgyW5gNQ',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/welcome-wtm.png',
+        products: [],
+        description: `Kickstarted the event by covering the outstanding stats about the WTM Jalandhar
+         along with the important announcements on behalf of the team, i.e., 
+        'Together We Rise' Initiative and headed the agenda & flow of the sessions ahead.`,
+        organization: 'WTM Jalandhar',
+        date: '23-08-2020'
+      },
+      {
+        title: 'Angular 101',
+        event: 'Angular Day',
+        link: 'https://youtu.be/rrs97lbZXHY?t=9008',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/angularDay.png',
+        products: [],
+        description: `In this talk, I covered the basics about Angular,
+         dived into its history and versions along with initial steps to design an angular application.
+         The talk was more focused about the basic concepts and important features of Angular.`,
+        organization: 'GDG Mysuru',
+        date: '25-07-2020'
+      },
+      {
+        title: 'Welcome Keynote',
+        event: 'Android 11 Meetup',
+        link: 'https://youtu.be/LhrHjB3Gh7E',
+        venue: 'Webinar',
+        imageUrl: '../../assets/talks/2020/android11.png',
+        products: [],
+        description: `Fostered the event by sharing my thoughts on various programmes and
+        examples where Android has been the gift for human-kind. 
+        Discussed about programmes like Internet Sathi that how it played important role for the women in India.`,
+        organization: 'GDG Jalandhar',
+        date: '19-07-2020'
+      },
+      {
         title: 'Unboxing PWAs',
         event: 'HackJaipur',
         link: 'https://www.youtube.com/watch?v=EpELOmo4IfU',
         venue: 'Webinar',
         imageUrl: '../../assets/talks/2020/hackjaipur.jpeg',
         products: ['PWA'],
-        description: `This talk covers what PWAs are, why and how it came in the picture,
-        how we can have our own PWAs, and how it benefitted the companies who stepped out to have their PWA.`,
+        description: `This talk covers what Progressive Web Apps are, why and how it came in the picture,
+        discussed about the steps to have our own PWA, and how
+        it benefitted the companies who stepped out to have their PWA.`,
         organization: 'HackJaipur, Jaipur',
         date: '18-06-2020'
       },
@@ -36,14 +90,14 @@ export class TalkComponent implements OnInit {
         venue: 'Webinar',
         imageUrl: '../../assets/talks/2020/iwd-india.jpeg',
         products: [],
-        description: `Conducted a ice-breakers session in the 4-day long event, talking about inspiring women
-        in tech around us. This session was to engage the audience and have a engaging online session in
-         between the tech/non-tech sessions.`,
+        description: `Conducted an Ice-breaker session in the 4-day long event to talk about inspiring women
+        in tech around us. The session was to interact with the audience and have a engaging online session in
+        between the tech/non-tech sessions.`,
         organization: 'Women Techmakers India',
         date: '24-05-2020'
       },
       {
-        title: 'From attendee to Co-organizer',
+        title: 'From attendee to Co-Organizer',
         event: 'From attendee to Co-organizer',
         link: '#',
         venue: 'Webinar',
