@@ -97,7 +97,7 @@ export class TalkComponent implements OnInit {
       },
       {
         "title": "Best Practices on Web",
-        "event": "Google I/O Extended",
+        "event": "Google I/O Extended Delhi",
         "link": "https://x.com/sakshamtaneja00/status/1535523388487507968",
         "venue": "Gurugram, India",
         "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/2ac9188d-3160-4260-8291-ffc2ea9d86ed",
@@ -107,22 +107,90 @@ export class TalkComponent implements OnInit {
         "date": "11-06-2022"
       },
       {
-        "title": "#IamRemarkable Workshop Series (01-06)",
+        "title": "Google I/O Updates",
+        "event": "Google I/O Extended Jalandhar",
+        "link": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/ae32c424-032f-4ebe-950d-8833c9a527a6",
+        "venue": "LPU, Jalandhar, Punjab, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/ccf545b3-c225-4b85-b997-d25d43cdeaf9",
+        "products": ["Google I/O 2022"],
+        "description": "Delivered a Keynote Speech regarding the latest announcements and product updates at Google I/O 2022. Attendees: 200. Duration: 15 Minutes. Applied Skills: Active Listening, Creativity, Communication, Public Speaking, and Teamwork.",
+        "organization": "GDG Jalandhar",
+        "date": "15-05-2022"
+      },
+
+        // need to add here
+      {
+        "title": "#IamRemarkable Workshop Series (06)",
         "event": "#IamRemarkableWeek",
         "link": "https://www.linkedin.com/feed/update/urn:li:activity:6733048044725522432/",
         "venue": "Virtual / Global",
-        "imageUrl": "../../assets/talks/2020/iar-week.png",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/5ad255c3-8e29-4bdc-806b-a2afd1ea23c0",
         "products": [],
-        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 720 Minutes. Total Attendees: 151. Skills: Critical Thinking, Leadership, Well-being, and Management.",
-        "organization": "Google / #IamRemarkable",
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 120 Minutes. Total Attendees: 24. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "#IamRemarkable | DSC IGDTUW",
         "date": "19-11-2020"
+      }, 
+      {
+        "title": "#IamRemarkable Workshop Series (05)",
+        "event": "#IamRemarkableWeek",
+        "link": "https://x.com/GDG_IGDTUW/status/1328559298184507393",
+        "venue": "Virtual - DSC IGDTUW",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/7c3fd6df-29ac-4d70-a940-2c35ca3b39b8",
+        "products": [],
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 120 Minutes. Total Attendees: 120. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "#IamRemarkable | DSC IGDTUW",
+        "date": "16-11-2020"
+      }, 
+      {
+        "title": "#IamRemarkable Workshop Series (04)",
+        "event": "#IamRemarkableWeek",
+        "link": "https://www.linkedin.com/posts/varshajaiswal_iamremarkable-dsccu-devcommunityroadshow-activity-6729665629089001472-w13l/",
+        "venue": "Virtual - DSC CU",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/440062fe-a2e5-4299-9675-f22d69854d0d",
+        "products": [],
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 120 Minutes. Total Attendees: 34. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "#IamRemarkable | DSC CU",
+        "date": "15-11-2020"
+      },        
+      {
+        "title": "#IamRemarkable Workshop Series (03)",
+        "event": "#IamRemarkableWeek",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6733048044725522432/",
+        "venue": "Virtual / Global",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/8c55a1fd-de4b-4f52-828f-687c661dc828",
+        "products": [],
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 120 Minutes. Total Attendees: 12. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "#IamRemarkable | Google",
+        "date": "13-11-2020"
+      },
+      {
+        "title": "#IamRemarkable Workshop Series (02)",
+        "event": "#IamRemarkableWeek",
+        "link": "https://x.com/_varshajaiswal_/status/1327025751741267969",
+        "venue": "Virtual - GDG Jalandhar",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C5622AQE945S58Gvcrw/feedshare-shrink_800/feedshare-shrink_800/0/1605222564888?e=1768435200&v=beta&t=sJkr5eSqwfQhfH5hL8R6OHOOY4Zd79irXxiflfjMiuM",
+        "products": [],
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 120 Minutes. Total Attendees: 20. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "#IamRemarkable | GDG WTM Jalandhar",
+        "date": "12-11-2020"
+      },
+      {
+        "title": "#IamRemarkable Workshop Series (01)",
+        "event": "#IamRemarkableWeek",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6732743055025180672/",
+        "venue": "Global / Virtual",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C5622AQErspZXlBMfUQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1605215410785?e=1768435200&v=beta&t=2DQ7Zmab0_edYddZwsEWuG_ezroUsB63ql0QrKnV6Ko",
+        "products": [],
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 120 Minutes. Total Attendees: 15. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "#IamRemarkable | Google",
+        "date": "12-11-2020"
       },
       {
         "title": "#IamRemarkable Workshop",
         "event": "GDG Rajkot Session",
-        "link": "https://twitter.com/GDGRajkot/status/1309804397698772992",
+        "link": "https://x.com/GDGRajkot/status/1309804397698772992",
         "venue": "Virtual",
-        "imageUrl": "../../assets/talks/2020/iar-rajkot.png",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/230198d0-9289-4d86-94b0-17c861647b06",
         "products": [],
         "description": "Session on self-promotion and its importance. Duration: 120 Minutes. Attendees: 35. Skills: Verbal Communication, Diversity, and Personal Brand.",
         "organization": "GDG Rajkot",
