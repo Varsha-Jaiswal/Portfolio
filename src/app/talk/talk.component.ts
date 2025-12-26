@@ -85,6 +85,17 @@ export class TalkComponent implements OnInit {
         "date": "01-02-2023"
       },
       {
+        "title": "Welcome Keynote",
+        "event": "DevFest Jalandhar",
+        "link": "https://x.com/GDGJalandhar/status/1581509422618402818",
+        "venue": "The Cabbana, Phagwara, Punjab, India",
+        "imageUrl": "https://pbs.twimg.com/media/FfKsr1OUoAEioTZ?format=jpg&name=large",
+        "products": ["Web", "UX/UI", "PWA"],
+        "description": "Technical talk on best practices and ways to enhance web app performance and user experience. Duration: 30 Minutes. Attendees: 1500. Applied Skills: Adaptability and Public Speaking.",
+        "organization": "GDG Jalandhar",
+        "date": "16-10-2022"
+      },
+      {
         "title": "Enhance Web Performance & User Experience",
         "event": "Google I/O Extended Jalandhar - Web Edition",
         "link": "NA",
