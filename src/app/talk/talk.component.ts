@@ -17,6 +17,117 @@ export class TalkComponent implements OnInit {
 
   getTalksData() {
     this.talksData = [
+      [
+      {
+        "title": "Mentorship Session",
+        "event": "International Women's Day 2024",
+        "link": "NA",
+        "venue": "Virtual",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/0cfc8411-07fb-4dcd-b0e3-273a45c0142c",
+        "products": ["AMP", "PWA", "Flutter", "TWA", "Gen AI", "ML Models"],
+        "description": "Targeted for women in tech for 20 hours over a span of a month from 29 feb 2024 to 31 march 2024 to enlighten them about recent technologies. Topics included Gen AI, ML Models, Flutter, and Open Source. Duration: 20 Hours. Applied Skills: AI/ML, AR/VR, Design, JavaScript, Open source, web, Frontend/Fullstack Development, and UX/UI.",
+        "organization": "Women Techmakers",
+        "date": "29-02-2024"
+      },
+      {
+        "title": "#IamRemarkable Workshop",
+        "event": "#BreakingBarriers by Women's Web",
+        "link": "https://x.com/womensweb/status/1654455326262059009",
+        "venue": "Google Gurugram",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/0537f7ba-05fc-48f5-a45f-01ff291087e5",
+        "products": [],
+        "description": "Facilitated the #IamRemarkable Workshop focused on self-branding and societal biases. Duration: 90 Minutes. Attendees: 30., 90 minutes, Applied Skills: Active Listening, Communication, Critical Thinking, Diversity, and Personal Brand.",
+        "organization": "Women's Web",
+        "date": "05-05-2023"
+      },
+      {
+        "title": "#IamRemarkable Workshop",
+        "event": "International Women's Day 2023 Jalandhar - #DareToBe",
+        "link": "NA",
+        "venue": "PCBT, Phagwara, Punjab, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/77307b78-b6d4-4dc0-a64a-73dfb69fb5e1",
+        "products": [],
+        "description": "Hosted the 17th #IamRemarkable Workshop for 75 attendees to uplift women in tech. Duration: 90 Minutes. Applied Skills: Public Speaking, Inclusion, Personal Brand, and Teamwork.",
+        "organization": "WTM Jalandhar",
+        "date": "08-04-2023"
+      },
+      {
+        "title": "#IamRemarkable Workshop",
+        "event": "International Women's Day 2023 Jalandhar",
+        "link": "NA",
+        "venue": "LPU, Jalandhar, Punjab, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/c3e79526-70ff-45df-9fd3-21e91cbdc317",
+        "products": [],
+        "description": "Hosted the 17th #IamRemarkable Workshop for 75 attendees to uplift women in tech. Duration: 90 Minutes. Applied Skills: Public Speaking, Inclusion, Personal Brand, and Teamwork.",
+        "organization": "WTM Jalandhar",
+        "date": "07-04-2023"
+      },
+      {
+        "title": "Buckle Up & Shine",
+        "event": "International Women's Day 2023 Jalandhar",
+        "link": "NA",
+        "venue": "CGC, Chandigarh, Punjab, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/762e3b5e-af02-4691-9425-6a56352dc6cc",
+        "products": [],
+        "description": "Motivational talk focused on inspiring Women in Tech to have a sound career. Duration: 70 Minutes. Attendees: 110. Applied Skills: Communication, Personal Brand, and Public Speaking.",
+        "organization": "DSC CGC",
+        "date": "02-02-2023"
+      },
+      {
+        "title": "Panel Discussion",
+        "event": "International Women's Day 2023 Jalandhar",
+        "link": "NA",
+        "venue": "Thapar University, Patiala, Punjab, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/c1b45470-38fb-4bb4-b122-7dee1dcdd99c",
+        "products": [],
+        "description": "Panel discussion about the journey and steps to have a career in Tech. Duration: 50 Minutes. Attendees: 150. Applied Skills: Diversity, Inclusion, and Verbal Communication.",
+        "organization": "DSC TIET",
+        "date": "01-02-2023"
+      },
+      {
+        "title": "Enhance Web Performance & User Experience",
+        "event": "Google I/O Extended Jalandhar - Web Edition",
+        "link": "NA",
+        "venue": "PCBT, Phagwara, Punjab, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/2ac9188d-3160-4260-8291-ffc2ea9d86ed",
+        "products": ["Web", "UX/UI", "PWA"],
+        "description": "Technical talk on best practices and ways to enhance web app performance and user experience. Duration: 45 Minutes. Attendees: 150. Applied Skills: Adaptability and Public Speaking.",
+        "organization": "GDG Jalandhar",
+        "date": "19-06-2022"
+      },
+      {
+        "title": "Best Practices on Web",
+        "event": "Google I/O Extended",
+        "link": "https://x.com/sakshamtaneja00/status/1535523388487507968",
+        "venue": "Gurugram, India",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/2ac9188d-3160-4260-8291-ffc2ea9d86ed",
+        "products": ["Web", "UX/UI", "PWA"],
+        "description": "Technical talk on best practices and ways to enhance web app performance and user experience. Duration: 45 Minutes. Attendees: 200. Applied Skills: Adaptability and Public Speaking.",
+        "organization": "GDG New Delhi",
+        "date": "11-06-2022"
+      },
+      {
+        "title": "#IamRemarkable Workshop Series (01-06)",
+        "event": "#IamRemarkableWeek",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6733048044725522432/",
+        "venue": "Virtual / Global",
+        "imageUrl": "../../assets/talks/2020/iar-week.png",
+        "products": [],
+        "description": "Hosted a series of 6 global workshops for DSC-IGDTUW, DSC-CU, and the general community. Total Duration: 720 Minutes. Total Attendees: 151. Skills: Critical Thinking, Leadership, Well-being, and Management.",
+        "organization": "Google / #IamRemarkable",
+        "date": "19-11-2020"
+      },
+      {
+        "title": "#IamRemarkable Workshop",
+        "event": "GDG Rajkot Session",
+        "link": "https://twitter.com/GDGRajkot/status/1309804397698772992",
+        "venue": "Virtual",
+        "imageUrl": "../../assets/talks/2020/iar-rajkot.png",
+        "products": [],
+        "description": "Session on self-promotion and its importance. Duration: 120 Minutes. Attendees: 35. Skills: Verbal Communication, Diversity, and Personal Brand.",
+        "organization": "GDG Rajkot",
+        "date": "26-10-2020"
+      },
       {
         title: 'Keep The Hopes High',
         event: 'WTM Jalandhar Celebration 6.0',
