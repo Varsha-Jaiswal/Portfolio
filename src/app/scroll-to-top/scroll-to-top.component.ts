@@ -2,6 +2,7 @@ import { Component, OnInit, Inject, HostListener } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
+  standalone: false,
   selector: 'app-scroll',
   templateUrl: './scroll-to-top.component.html',
   styleUrls: ['./scroll-to-top.component.css']

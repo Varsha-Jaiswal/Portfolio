@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MatSnackBarModule, MatSnackBar } from '@angular/material';
+import { MatSnackBarModule, MatSnackBar } from '@angular/material/snack-bar';
+import { filter } from 'rxjs/operators';
 import { ServiceWorkerModule, SwUpdate } from '@angular/service-worker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -42,7 +43,7 @@ import { environment } from '../environments/environment';
 })
 export class AppModule {
   constructor(update: SwUpdate, snackBar: MatSnackBar) {
-    update.available.subscribe(update => {
+    update.versionUpdates.pipe(filter(evt => evt.type === 'VERSION_READY')).subscribe(evt => {
       // Aloow refresh from snackbar
       const snack = snackBar.open('Update Available', 'Reload');
       snack.onAction().subscribe(() => {

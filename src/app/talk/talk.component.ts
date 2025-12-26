@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-talk',
   templateUrl: './talk.component.html',
   styleUrls: ['./talk.component.css']
@@ -17,7 +18,6 @@ export class TalkComponent implements OnInit {
 
   getTalksData() {
     this.talksData = [
-      [
       {
         "title": "Mentorship Session",
         "event": "International Women's Day 2024",
@@ -111,7 +111,7 @@ export class TalkComponent implements OnInit {
         "event": "Google I/O Extended Delhi",
         "link": "https://x.com/sakshamtaneja00/status/1535523388487507968",
         "venue": "Gurugram, India",
-        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/2ac9188d-3160-4260-8291-ffc2ea9d86ed",
+        "imageUrl": "https://storage.googleapis.com/advocu-wtm/wtm/activity-photos/703d2a17-91c2-4c47-aada-eefc4b01e766",
         "products": ["Web", "UX/UI", "PWA"],
         "description": "Technical talk on best practices and ways to enhance web app performance and user experience. Duration: 45 Minutes. Attendees: 200. Applied Skills: Adaptability and Public Speaking.",
         "organization": "GDG New Delhi",
@@ -618,5 +618,4 @@ export class TalkComponent implements OnInit {
       }
     ];
   }
-
 }

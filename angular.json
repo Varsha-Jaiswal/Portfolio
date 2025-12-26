@@ -40,7 +40,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -55,24 +54,38 @@
               ],
               "serviceWorker": true,
               "ngswConfigPath": "ngsw-config.json"
+            },
+            "development": {
+              "optimization": false,
+              "outputHashing": "none",
+              "sourceMap": true,
+              "namedChunks": true,
+              "aot": false,
+              "extractLicenses": false,
+              "vendorChunk": true,
+              "buildOptimizer": false
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "defaultConfiguration": "development",
           "options": {
-            "browserTarget": "Portfolio:build"
+            "buildTarget": "Portfolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Portfolio:build:production"
+              "buildTarget": "Portfolio:build:production"
+            },
+            "development": {
+              "buildTarget": "Portfolio:build:development"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Portfolio:build"
+            "buildTarget": "Portfolio:build"
           }
         },
         "test": {
@@ -121,5 +134,7 @@
       }
     }
   },
-  "defaultProject": "Portfolio"
+  "cli": {
+    "analytics": false
+  }
 }
